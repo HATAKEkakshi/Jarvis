@@ -6,9 +6,9 @@ if {![package vsatisfies [package provide Tcl] 8.6-]} {
 if {[package vsatisfies [package provide Tcl] 9.0-]} {
     package ifneeded tdbc::mysql 1.1.3 \
 	    "[list source [file join $dir tdbcmysql.tcl]]\;\
-	    [list load [file join $dir libtcl9tdbcmysql1.1.3.so] [string totitle tdbcmysql]]"
+	    [list load [file join $dir libtcl9tdbcmysql1.1.3.dylib] [string totitle tdbcmysql]]"
 } else {
     package ifneeded tdbc::mysql 1.1.3 \
 	    "[list source [file join $dir tdbcmysql.tcl]]\;\
-	    [list load [file join $dir libtdbcmysql1.1.3.so] [string totitle tdbcmysql]]"
+	    [list load [file join $dir libtdbcmysql1.1.3.dylib] [string totitle tdbcmysql]]"
 }

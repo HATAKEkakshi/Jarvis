@@ -1,4 +1,4 @@
-prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+prefix=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

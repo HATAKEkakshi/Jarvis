@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+prefix=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -9,5 +9,5 @@ Name: SQLite
 Description: SQL database engine
 Version: 3.41.2
 Libs: -L${libdir} -lsqlite3
-Libs.private: -lz -lm -ldl -lpthread 
+Libs.private: -lz 
 Cflags: -I${includedir}

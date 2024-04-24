@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
-exec_prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
-libdir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/lib
+prefix=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv
+exec_prefix=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv
+libdir=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit
@@ -11,5 +11,5 @@ URL: https://www.tcl-lang.org/
 Version: 8.6.12
 Requires: tcl >= 8.6
 Libs: -L${libdir} -ltk8.6 -ltkstub8.6
-Libs.private:  -lX11
+Libs.private:  
 Cflags: -I${includedir}

@@ -1,8 +1,8 @@
-prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+prefix=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/include
+includedir=/Users/hemantkumar/Developer/Jarvis/Jarvis_ai/myenv/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

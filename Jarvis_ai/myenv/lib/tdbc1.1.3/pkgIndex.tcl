@@ -15,12 +15,12 @@ apply {{dir} {
     if {[package vsatisfies [package provide Tcl] 9.0-]} {
 	package ifneeded tdbc 1.1.3 \
 		"package require TclOO;\
-		[list load [file join $dir libtcl9tdbc1.1.3.so] [string totitle tdbc]]\;\
+		[list load [file join $dir libtcl9tdbc1.1.3.dylib] [string totitle tdbc]]\;\
 		[list source $libraryfile]"
     } else {
 	package ifneeded tdbc 1.1.3 \
 		"package require TclOO;\
-		[list load [file join $dir libtdbc1.1.3.so] [string totitle tdbc]]\;\
+		[list load [file join $dir libtdbc1.1.3.dylib] [string totitle tdbc]]\;\
 		[list source $libraryfile]"
     }
 }} $dir
