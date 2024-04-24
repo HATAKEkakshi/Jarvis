@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+exec_prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+libdir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/lib
+includedir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://xz.tukaani.org/xz-utils/
+Version: 5.4.6
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

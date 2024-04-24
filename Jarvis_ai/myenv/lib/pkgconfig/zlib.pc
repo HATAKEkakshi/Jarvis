@@ -1,0 +1,13 @@
+prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+exec_prefix=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv
+libdir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/lib
+sharedlibdir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/lib
+includedir=/home/hatakekakashi/developer/Jarvis/Jarvis_ai/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
